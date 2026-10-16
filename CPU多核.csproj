@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- 所有控件属性均在代码中赋值，从不使用 WinForms 设计器序列化，故关闭 WFO1000 -->
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+
+    <!-- 程序图标：编译时会嵌入到 exe 里，同时决定任务栏和资源管理器显示的图标 -->
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+
+</Project>

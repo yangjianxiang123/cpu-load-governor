@@ -32,7 +32,7 @@
 
 ### 方式一：直接下载（推荐给普通用户）
 
-到 [Releases](../../releases) 页面下载 `CPU多核.exe`，双击运行即可，无需安装任何东西。
+到 [Releases](../../releases/latest) 页面下载 **`CpuLoadGovernor.exe`**，双击运行即可，无需安装任何东西。
 
 > 首次启动会稍慢（1~3 秒），因为单文件 exe 需要先解压运行时到临时目录。
 
